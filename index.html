@@ -4,14 +4,25 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Find Businesses Near You on Local Search Engine - Justdial</title>
-        <link rel="icon" href="./favicon.ico">
+        <link rel="icon" href="./img/favicon.ico ">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <style>
-            /* Styling for 3D and dynamic effects */
+           .carousel-control-prev,
+            .carousel-control-next {
+                left: 0;
+                right: 0;
+                }
+
+                .carousel-inner {
+                margin-left: 0 !important;
+                margin-right: 0 !important;
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+                }
             .y_icons .btn {
                 background-color: #ffffff;
                 border: 1px solid #ddd;
@@ -57,7 +68,7 @@
 
              .main-wrapper {
                 background-color: white;
-                max-width: 1200px;
+                /* max-width: 1200px; */
                 margin: 0 auto;
                 border-radius: 8px;
                 box-shadow: 0 0 10px rgba(0,0,0,0.05);
@@ -407,10 +418,7 @@
                 <div class="row m-0 h-100">
                     <div class="col-1 p-0 y_tbdr ">
                         <img src="./img/justdial.png" class="webbanner" alt="Website Banner" height="30" style="margin-top: 10px;" />
-
                     </div>
-                    <br>
-                    <br>
                     <div class="col-10 p-0 y_tbdr d-flex align-items-center justify-content-end pe-3">
                         <ul class="nav custom-header-links gap-0">
                             <li class="nav-item ">
@@ -454,7 +462,7 @@
                                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                     <div class="offcanvas-header">
                                         <h5 class="offcanvas-title" id="offcanvasRightLabel">Yash Mali
-                                            <i class="fa-regular fa-circle-user"></i></br>
+                                            <i class="fa-regular fa-circle-user"></i>
                                             Click to View Profile
                                         </h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -465,25 +473,25 @@
                                              Favourites
                                         </a>
                                         </button>
-                                    </br>
+                                    
                                         <button type="button" class="btn"><a> 
                                             <i class="fa-solid fa-bookmark"></i>
                                              Saved
                                         </a>
                                         </button>
-                                    </br>
+                                    
                                         <button type="button" class="btn"><a> 
                                             <i class="fa-solid fa-user-pen"></i>
                                              Edit Profile
                                         </a>
                                         </button>
-                                    </br>
+                                    
                                         <button type="button" class="btn"><a>  
                                             <i class="fa-solid fa-wallet"></i>
                                              My Transaction
                                         </a>
                                         </button>
-                                    </br>
+                                    
                                         <div class="dropdown">
                                             <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             <i class="fa-solid fa-language"></i> Language</button>
@@ -497,52 +505,41 @@
                                                 <li><a class="dropdown-item" href="#">தமிழ் - TA</a></li>
                                             </ul>
                                         </div>
-                                    </br>
                                         <button type="button" class="btn"><a>  
                                             <i class="fa-solid fa-bell"></i>
                                             Notifications
                                         </a>
                                         </button>
-                                    </br>
                                         <button type="button" class="btn"><a>  
                                             <i class="fa-solid fa-business-time"></i>
                                             My Bussiness
                                         </a>
                                         </button>
-                                    </br>
                                         <button type="button" class="btn"><a>
                                             <i class="fa-solid fa-headset"></i>
                                             Customer Service
                                         </a>
                                         </button>
-                                    </br>
-                                    </br>
                                         <button type="button" class="btn"><a>  
                                             <i class="fa-solid fa-people-arrows"></i>
                                             Investor Relations
                                         </a>
                                     </button>
-                                    </br>
-                                    </br>
                                         <button type="button" class="btn"><a>  
                                             <i class="fa-solid fa-building-shield"></i>
                                             Policy
                                         </a>
                                         </button>
-                                    </br>
                                         <button type="button" class="btn"><a>  
                                             <i class="fa-solid fa-comments"></i>
                                             Feedback
                                         </a>
                                         </button>
-                                    </br>
                                         <button type="button" class="btn"><a>  
                                             <i class="fa-solid fa-handshake-angle"></i>
                                             Help
                                         </a>
                                         </button>
-                                    </br>
-                                    </br>
                                         <button type="button" class="btn"><a>  
                                             <i class="fa-solid fa-right-from-bracket"></i>
                                             Log-Out
@@ -554,10 +551,6 @@
                     </div>
                 </div>
             </header>
-            <br>
-            <br>
-            <br>
-            <br>
         <div class="main-wrapper container-fluid">
             <main class="y_tbdr" id="mainContent">
                 <div class="container my-4">
@@ -617,10 +610,22 @@
                         <img src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/banner_packersmovers_2024.webp" class="d-block w-100 h-100 object-fit-cover" alt="img">
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                        <span aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
+                    <div class="container-fluid p-60">
+                        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                            <!-- Your carousel items -->
+                          </div>
+                      
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                            <span aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                            <span aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
                         <span aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
@@ -672,8 +677,6 @@
                     </div>
                 </div>
                 </div>
-                <br>
-
                 <div class="container text-center my-4 n_icons">
                 <div class="row row-cols-10 btn-lg text-secondary">
                     
@@ -684,7 +687,7 @@
                             <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/restaurant-2022.svg?w=96&q=75" alt="Flight">
                         </div>
                         </a>
-                    </button><br>Restaurants
+                    </button>Restaurants
                     </div>
 
                     <div class="col">
@@ -694,7 +697,8 @@
                             <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/hotel-2022.svg?w=96&q=75" alt="Flight">
                         </div>
                         </a>
-                    </button><br>Hotels
+                    </button>
+                    Hotels
                     </div>
 
                     <div class="col">
@@ -704,7 +708,7 @@
                             <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/beauty.svg?w=96&q=75" alt="Flight">
                         </div>
                         </a>
-                    </button><br>Beauty Spa
+                    </button>Beauty Spa
                     </div>
 
                     <div class="col">
@@ -714,7 +718,7 @@
                             <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/homedecor.svg?w=96&q=75" alt="Flight">
                         </div>
                         </a>
-                    </button><br>Home Decor
+                    </button>Home Decor
                     </div>
 
                     <div class="col">
@@ -724,7 +728,7 @@
                             <img src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/hotkey_wedding_icon.gif?w=96&q=75" alt="Flight">
                         </div>
                         </a>
-                    </button><br>Wedding Planning
+                    </button>Wedding Planning
                     </div>
 
 
@@ -735,7 +739,7 @@
                             <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/education.svg?w=96&q=75" alt="Flight">
                         </div>
                         </a>
-                    </button><br>Education
+                    </button>Education
                     </div>
 
                     <div class="col">
@@ -745,7 +749,7 @@
                             <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/renthire.svg?w=96&q=75" alt="Flight">
                         </div>
                         </a>
-                    </button><br>Rent & Hire
+                    </button>Rent & Hire
                     </div>
 
                     <div class="col">                        
@@ -755,7 +759,7 @@
                                 <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/hospital_2023.svg?w=96&q=75" alt="Flight">
                             </div>
                             </a>
-                        </button><br>Hospitals
+                        </button>Hospitals
                     </div>
 
                      <div class="col">             
@@ -765,7 +769,9 @@
                                 <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/contractor-2022.svg?w=96&q=75" alt="Flight">
                            </div>
                            </a>
-                        </button><br>Contractors
+                        </button>
+                    
+                        >Contractors
                     </div>
 
                      <div class="col">
@@ -775,7 +781,7 @@
                                 <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/pet_shops_2023.svg?w=96&q=75" alt="Flight">
                             </div>
                             </a>
-                        </button><br>Pet Shops
+                        </button> Shops
                     </div>
 
                      <div class="col">
@@ -785,7 +791,7 @@
                                 <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/pg-hostels-rooms.svg?w=96&q=75" alt="Flight">
                             </div>
                             </a>
-                        </button><br>PG & Hostels
+                        </button>PG & Hostels
                     </div>
 
                      <div class="col">
@@ -795,7 +801,7 @@
                                 <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/estate-agent.svg?w=96&q=75" alt="Flight">
                             </div>
                             </a>
-                        </button><br>Estate Agent
+                        </button>Estate Agent
                     </div>
 
                      <div class="col">
@@ -805,7 +811,8 @@
                                 <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/eventorganizers.svg?w=96&q=75" alt="Flight">
                             </div>
                             </a>
-                        </button><br>Event Organizers
+                        </button>
+                        Event Organizers
                     </div>
 
                     <div class="col">
@@ -815,7 +822,7 @@
                                 <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/courier_2023.svg?w=96&q=75" alt="Flight">
                             </div>
                             </a>
-                        </button><br>Courier Services
+                        </button>Courier Services
                     </div>
 
                      <div class="col">
@@ -825,7 +832,7 @@
                                 <img src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/newhotkey/loans.svg?w=96&q=75" alt="Flight">
                             </div>
                             </a>
-                        </button><br>Loans
+                        </button>Loans
                     </div>
 
                      <div class="col">
@@ -835,7 +842,7 @@
                                 <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/driving_school_2023.svg?w=96&q=75" alt="Flight">
                             </div>
                             </a>
-                        </button><br>Driving Schools
+                        </button>Driving Schools
                     </div>
 
                      <div class="col">
@@ -845,7 +852,7 @@
                                 <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/gym_2023.svg?w=96&q=75" alt="Flight">
                             </div>
                             </a>
-                        </button><br>Gym
+                        </button>Gym
                     </div>
 
                      <div class="col">
@@ -855,7 +862,7 @@
                                 <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/packers_movers_2023.svg?w=96&q=75" alt="Flight">
                             </div>
                             </a>
-                        </button><br>Packers & Movers
+                        </button>Packers & Movers
                     </div>
 
                      <div class="col">
@@ -865,27 +872,20 @@
                                 <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/dentist_2023.svg?w=96&q=75" alt="Flight">
                             </div>
                             </a>
-                        </button><br>Dentists
+                        </button>Dentists
                     </div>
 
                      <div class="col">
                         <button type="button" class="btn">
                             <a href="#" role="button">
                             <div class="icon-store">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdvVWaxVpvriYI9pPTde3gTJ_SfJHQdWywU2naSdXYfh8dNOOp4Hb5-0NDCT0LSOFq_3E&usqp=CAU" alt="Flight">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdvVWaxVpvriYI9pPTde3gTJ_SfJHQdWywU2naSdXYfh8dNOOp4Hb5-0NDCT0LSOFq_3E&usqp=CAU" alt="Flight" width="50" height="50">
                             </div>
                             </a>
-                        </button><br>Popular Categories
+                        </button>Popular Categories
                     </div>
-
-
-
                 </div>
                 </div>
-
-                <br>
-                <br>
-
                 <div class="vertical-buttons" aria-label="Side vertical action buttons">
                     <button class="side-button advertise" type="button" aria-label="Advertise">Advertise</button>
                     <button class="side-button free-listing" type="button" aria-label="Free Listing">Free Listing</button>
@@ -1732,12 +1732,10 @@
                                         </div>
                                     </div>
                                 </div>
-                        </section>
-                        <br>
+                            </section>
                         <section>
                             <div class="container my-4">
                                 <h2>Recent Activity</h2>
-                                <br>
                             <!-- Review Cards -->
                             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
                                 <!-- Card 1 -->
@@ -1793,10 +1791,6 @@
                             <div class="text-center mt-4">
                                 <button class="btn btn-outline-primary">Load More</button>
                             </div>
-
-                            <br>
-                            <br>
-
                             <div class="d-flex justify-content-between align-items-center flex-wrap border-top pt-4 pb-3">
                                 <div class="mb-2">
                                 <span class="fw-semibold me-3">Follow us on</span>
@@ -1919,7 +1913,7 @@
                 </div>
             </div>
         </div>
-    <br>    
+
             <section>
                 <div class="content n_about">
                     <h6 class="n_about2">One-Stop for All Local Businesses, Services, & Stores Nearby Across India</h6>
@@ -1928,8 +1922,6 @@
                     <p class="n_about2">Our 'Free Listing' feature gives a platform to showcase varied specialities. We then furnish you with the information via phone, SMS, web, App and WAP as well as, create a space for you to share your experiences through our 'Rate & Review' feature. Through the 'Best Deals', 'Last Minute Deals' and 'Live Quotes', we make sure that you are offered the best bargains in the market.</p>
                 </div>
             </section> 
-<br>
-<br>
         <!-- Footer Category Links -->
         <div class="container pb-5">
           <h7 class="fw-semibold mb-2 n_about">Popular Categories</h7>
@@ -2057,14 +2049,7 @@
             </div>
         </div>
         </div>
-
-
-
-                        
     </div>
-    <br>
-    <br>
-    <br>
 </footer>
 </div>
 </div>
